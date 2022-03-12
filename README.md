@@ -55,10 +55,15 @@ identificamos ainda algumas diferenças no formato dos números (IMC e Valor do 
 
 ## Dashboard
 
-(C:\Users\raphael.pires\Desktop\Treinamento\Formação Analista de Dados\Power BI Fundamentos\Desafio DSA - Lab 02\dashboard_page_1.png)
+**Visão Gerencial**
+
+![Visão Gerencial](https://user-images.githubusercontent.com/81444128/158016361-5e6046df-4e9f-43a7-b07f-ec736d75dd52.png)
 
 
+**Perfil do Usuário**
 
+
+![Perfil do Usuário](https://user-images.githubusercontent.com/81444128/158016011-4e774928-79ca-4b8c-96b0-45ef755ef7f7.png)
 
 ### Campos calculados
 
@@ -153,8 +158,13 @@ aux_total-beneficiarios = MAX(seguro_saude_v2[Índice])
 
 ```
 
+## Insights do business
 
+Em nosso laboratório, respondemos a todas as perguntas de negócio levantadas pelos stakeholders. Neste segmento do nosso repositório estamos elencando apenas alguns insights que julgamos mais interessantes.
 
-### 
-
-
+- A Região Norte consome 271 Bi do orçamento da empresa e os clientes entre 60-69 anos são os que consomem mais recursos da operadora. Contrariando o senso comum, os clientes com mais de 70 anos não consomem tanto o plano de saúde;
+- O perfil de gasto por idade é bastante parecido nas Regiões Norte, Nordeste e Sul. Na Região Sudeste, porém, os pacientes entre 20-29 são os que mais consomem o plano de saúde;
+- Não há uma diferença significativa entre o valor gasto por homens e mulheres;
+- O IMC médio dos segurados indica obesidade em grau leve;
+- A obesidade está presente nos usuários com mais de 40 anos. Sabemos que a obesidade é fator de risco para várias doenças e consequentemente o beneficiário usará mais o plano de saúde. Talvez seja interessante ter um programa de combate a obesidade;
+- Beneficiários com 1 ou mais filhos representam 60% do gasto da empresa;
